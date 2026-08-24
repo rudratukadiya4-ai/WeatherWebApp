@@ -1,0 +1,4 @@
+REACT_APP_BACKEND_URL=https://dynamic-forecast-1.preview.emergentagent.com
+WDS_SOCKET_PORT=443
+ENABLE_HEALTH_CHECK=false
+

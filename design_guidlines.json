@@ -1,0 +1,49 @@
+{
+  "app_name": "SkyPulse Live Weather",
+  "context": "webapp",
+  "emotional_tone": "vibrant, breezy, animated, atmospheric",
+  "typography": {
+    "headings": "Outfit, sans-serif",
+    "body": "Plus Jakarta Sans, sans-serif",
+    "weights": ["300", "400", "500", "600", "700"]
+  },
+  "colors": {
+    "primary": "#3B82F6",
+    "sky_blue": "#0EA5E9",
+    "sun_yellow": "#F59E0B",
+    "high_temp_red": "#EF4444",
+    "card_bg": "rgba(255, 255, 255, 0.75)",
+    "dark_card_bg": "rgba(15, 23, 42, 0.75)",
+    "border_color": "rgba(255, 255, 255, 0.3)"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-white/70 border border-white/40 shadow-2xl",
+    "animation": "Framer motion floating clouds, sun pulse, smooth temperature transitions, high-temperature red alert pulse"
+  },
+  "component_structure": {
+    "search_bar": "Live Geocoding autocomplete with recent searches stored in SQL",
+    "weather_hero": "Dynamic animated background with sun, clouds, rain based on live Open-Meteo conditions",
+    "metrics_grid": "Bento grid displaying humidity, wind speed, UV index, pressure, and high temperature red alerts",
+    "forecast": "7-day and hourly forecast cards with weather icons"
+  },
+  "image_urls": [
+    {
+      "category": "hero_sky_bg",
+      "image_url": "https://images.unsplash.com/photo-1513069020900-a162c4db0762?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Dramatic sun glowing through clouds"
+    },
+    {
+      "category": "weather_texture",
+      "image_url": "https://images.pexels.com/photos/29286043/pexels-photo-29286043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Sun rays bursting through dynamic clouds"
+    }
+  ],
+  "universal_guidelines": [
+    "Ensure all interactive elements have data-testid attributes",
+    "High temperature conditions trigger dynamic crimson red state",
+    "Use 2-3x generous spacing",
+    "Glassmorphism with backdrop blur and solid borders",
+    "SQL database integration for storing recent searched cities"
+  ]
+}
+
